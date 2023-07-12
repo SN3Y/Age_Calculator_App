@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator</title>
+</head>
+<body>
+  <div class="container__all">
+    <div class="container">
+      <div class="box__day">
+        <h2>Día</h2>
+        <input class="input__day" type="number" min="1" max="31" placeholder="DD">
+        <br><br/>
+        <span class="error__day">Ingresa un día válido</span>
+      </div>
+      <div class="box__month">
+        <h2>Mes</h2>
+        <input class="input__month"  type="number" placeholder="MM">
+        <br><br/>
+        <span class="error__month">Ingresa un mes válido</span>
+      </div>
+      <div class="box__year">
+        <h2>Año</h2>
+        <input class="input__year" type="number" min="1000" placeholder="YY">
+        <br><br/>
+        <span class="error__year">Ingresa un año válido</span>
+      </div>
+      <div class="result__button"></div>
+    </div>
+    <div class="answer">
+      <h1 class="answer__year">--  años</h1>
+      <h1 class="answer__month">--  meses</h1>
+      <h1 class="answer__day">--  días</h1>
+    </div>
+    
+  </div>
+  <script src="logic.js"></script>
+</body>
+</html>
